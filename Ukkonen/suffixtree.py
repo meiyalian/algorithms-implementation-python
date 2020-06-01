@@ -1,10 +1,4 @@
 
-
-"""
-name: Meiya Lian
-studentID: 29617111
-"""
-
 import sys
 import math
 class Node:
