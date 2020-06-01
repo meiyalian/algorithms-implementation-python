@@ -7,5 +7,6 @@
 
 ## Ukkonen's algorithm
 - implementation 
+- suffix tree based pattern matching involving wildcard char
 - suffix tree based Burrows–Wheeler transform
 - find LCP (need to be optimized*）
