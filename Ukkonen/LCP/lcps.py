@@ -44,20 +44,20 @@ def find_LCP(tree,  index_1, index_2):
     return LCP
 
 
-def find_LCP_optimal(tree, index1, index2):
-    level = math.ceil(math.log(tree.max_depth, 2))
-    leaf_1 = tree.leafList[index1]
-    leaf_2 = tree.leafList[index2]
+# def find_LCP_optimal(tree, index1, index2):
+#     level = math.ceil(math.log(tree.max_depth, 2))
+#     leaf_1 = tree.leafList[index1]
+#     leaf_2 = tree.leafList[index2]
 
-    if leaf_1.depth > leaf_2.depth:
-        leaf_1 = leaf_1.parents_sparse[leaf_1-leaf_2]
+#     if leaf_1.depth > leaf_2.depth:
+#         leaf_1 = leaf_1.parents_sparse[leaf_1-leaf_2]
 
-    for i in range(level-1, -1,-1 ):
-        if leaf_1.parents_sparse[i]!= leaf_2.parents_sparse[i]:
-            leaf_1 = leaf_1.parents_sparse[i]
-            leaf_2 = leaf_2.parents_sparse[i]
+#     for i in range(level-1, -1,-1 ):
+#         if leaf_1.parents_sparse[i]!= leaf_2.parents_sparse[i]:
+#             leaf_1 = leaf_1.parents_sparse[i]
+#             leaf_2 = leaf_2.parents_sparse[i]
 
-    return leaf_1.parents_sparse[0]
+#     return leaf_1.parents_sparse[0]
 
 
 
