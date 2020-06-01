@@ -1,9 +1,4 @@
 
-"""
-name: Meiya Lian
-studentID: 29617111
-"""
-
 import sys
 sys.path.append('../')
 from suffixtree import SuffixTree
