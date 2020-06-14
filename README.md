@@ -17,7 +17,7 @@
   - Modular exponentiation (repeated-squaring) 
   - Miller-Rabin Primality Testing
 
-## Data compression (to be upload)
+## Data compression
   - LZSS encoder & decoder
     - Huffman coding
     - Elias (Omega) coding for universal integers
