@@ -12,7 +12,7 @@
 - suffix tree based Burrows–Wheeler transform
 - find LCP (need to be optimized*）
 
-## Numerical algorithms (to be upload)
+## Numerical algorithms
 - generate random prime number
   - Modular exponentiation (repeated-squaring) 
   - Miller-Rabin Primality Testing
