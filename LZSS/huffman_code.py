@@ -35,6 +35,9 @@ def encode(root, code):
     """
     if root is None:
         return
+    if code == '' and root.left is None and root.right is None:
+        root.code = '0'
+        return
     root.code = code
     encode(root.left, code +  '0')
     encode(root.right, code + '1')
